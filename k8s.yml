@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+    name: microservice-deployment
+    labels: 
+        app: microservice_kubernetes
+
+spec:
+    replicas: 1
+    
+    selector:
+        matchLabels: 
+            app: microservice_kubernetes
+    template:
+        metadata:
+            labels:
+                app: microservice_kubernetes
+        spec:
+            containers:
+            - name: microservice-kubernetes
+              image: bigandoh/microservice_kubernetes
+              imagePullPolicy: Always
+              ports: 
+              - containerPort: 3000
+
+
+

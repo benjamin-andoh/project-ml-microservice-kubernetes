@@ -1,0 +1,9 @@
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+NAME                                       READY   STATUS    RESTARTS   AGE
+microservice-deployment-555666d88b-zqqqn   1/1     Running   0          33m
