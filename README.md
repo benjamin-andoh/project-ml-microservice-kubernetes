@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/project-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/circleci/project-ml-microservice-kubernetes)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/benjamin-andoh/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/benjamin-andoh/project-ml-microservice-kubernetes/tree/master)
 
 ## Project Overview
 
