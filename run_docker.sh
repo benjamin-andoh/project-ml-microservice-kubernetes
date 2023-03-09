@@ -15,4 +15,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8080:8080 -h=`bigandoh` --name microservice_kubernetes microservice_kubernetes:latest
+docker run -p 80:80 -h=`bigandoh` --name microservice_kubernetes microservice_kubernetes:latest
